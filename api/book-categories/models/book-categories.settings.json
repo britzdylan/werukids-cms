@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "books",
+  "collectionName": "book_categories",
   "info": {
-    "name": "Books",
+    "name": "Book categories",
     "description": ""
   },
   "options": {
@@ -25,16 +25,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "languages": {
-      "collection": "languages"
-    },
-    "Link": {
-      "type": "string",
-      "required": true
-    },
-    "book_category": {
-      "model": "book-categories"
     }
   }
 }

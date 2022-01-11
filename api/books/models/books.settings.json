@@ -35,6 +35,11 @@
     },
     "book_category": {
       "model": "book-categories"
+    },
+    "pages": {
+      "type": "integer",
+      "required": true,
+      "min": 3
     }
   }
 }
